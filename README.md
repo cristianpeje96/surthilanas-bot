@@ -44,6 +44,7 @@
 ### Funcionalidades principales:
 
 #### 💰 Registro de Ventas
+
 - Número de factura
 - Cliente (opcional)
 - Monto
@@ -51,6 +52,7 @@
 - Observaciones
 
 #### 💸 Registro de Gastos
+
 - Categorización automática
 - Proveedor
 - Monto
@@ -58,6 +60,7 @@
 - Notas adicionales
 
 #### 📊 Reportes Financieros
+
 - Resumen diario
 - Resumen semanal
 - Resumen mensual
@@ -65,6 +68,7 @@
 - Cálculo automático de utilidades y márgenes
 
 #### 🔐 Seguridad
+
 - Control de acceso por usuario
 - Almacenamiento seguro en Google Drive
 - Variables de entorno para credenciales
@@ -113,12 +117,14 @@
 ## 📦 REQUISITOS
 
 ### Software:
+
 - Python 3.11 o superior
 - pip (gestor de paquetes)
 - Cuenta de Google con acceso a Google Drive
 - Cuenta de Telegram
 
 ### Credenciales necesarias:
+
 - Token de Telegram Bot
 - Credenciales de Google Service Account
 - IDs de hojas de Google Sheets
@@ -130,7 +136,7 @@
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/surthilanas-bot.git
+git clone https://github.com/cristianpeje96/surthilanas-bot.git
 cd surthilanas-bot
 ```
 
@@ -170,6 +176,7 @@ python bot.py
 ```
 
 Si todo está correcto, verás:
+
 ```
 ✅ Conectado exitosamente a Google Sheets
 🤖 Bot de SURTHILANAS iniciado
@@ -215,15 +222,15 @@ Bot: ✅ Venta registrada exitosamente
 
 ## 🎮 COMANDOS DISPONIBLES
 
-| Comando | Descripción |
-|---------|-------------|
-| `/start` | Inicia el bot y muestra el menú |
-| `/venta` | Registrar una nueva venta |
-| `/gasto` | Registrar un nuevo gasto |
-| `/reporte` | Generar reporte financiero |
-| `/estado` | Ver estado financiero actual |
-| `/ayuda` | Mostrar ayuda |
-| `/cancelar` | Cancelar operación actual |
+| Comando     | Descripción                     |
+| ----------- | ------------------------------- |
+| `/start`    | Inicia el bot y muestra el menú |
+| `/venta`    | Registrar una nueva venta       |
+| `/gasto`    | Registrar un nuevo gasto        |
+| `/reporte`  | Generar reporte financiero      |
+| `/estado`   | Ver estado financiero actual    |
+| `/ayuda`    | Mostrar ayuda                   |
+| `/cancelar` | Cancelar operación actual       |
 
 ---
 
@@ -262,6 +269,7 @@ surthilanas-bot/
 ## 🗺️ ROADMAP
 
 ### ✅ Versión 1.0 (Actual)
+
 - [x] Bot de Telegram funcional
 - [x] Registro de ventas y gastos
 - [x] Reportes básicos
@@ -269,12 +277,14 @@ surthilanas-bot/
 - [x] Control de acceso
 
 ### 🔄 Versión 1.1 (Próxima)
+
 - [ ] Edición y eliminación de registros
 - [ ] Búsqueda de registros específicos
 - [ ] Notificaciones automáticas
 - [ ] Exportación a PDF
 
 ### 🚀 Versión 2.0 (Futura)
+
 - [ ] Dashboard web
 - [ ] Múltiples usuarios con roles
 - [ ] Gráficos visuales
@@ -312,7 +322,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para
 
 ## 👥 AUTORES
 
-- **Desarrollador Principal** - Sistema desarrollado para SURTHILANAS
+- **Desarrollador Principal** - Cristian Pejendino - Sistema desarrollado para SURTHILANAS
 - **Contribuidores** - Ver la lista de [contribuidores](https://github.com/tu-usuario/surthilanas-bot/contributors)
 
 ---
@@ -329,8 +339,8 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para
 
 ¿Necesitas ayuda?
 
-- 📧 Email: soporte@surthilanas.com
-- 💬 Issues: [GitHub Issues](https://github.com/tu-usuario/surthilanas-bot/issues)
+- 📧 Email: cristianfernandopejendino@gmail.com
+- 💬 Issues: [GitHub Issues](https://github.com/cristianpeje96/surthilanas-bot.git)
 - 📖 Documentación: Ver carpeta `docs/`
 
 ---
@@ -361,4 +371,4 @@ Si este proyecto te ha sido útil, ¡dale una ⭐ en GitHub!
 
 ---
 
-*README.md - Sistema Financiero SURTHILANAS v1.0*
+_README.md - Sistema Financiero SURTHILANAS v1.0_
